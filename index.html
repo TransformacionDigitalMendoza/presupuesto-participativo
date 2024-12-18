@@ -259,7 +259,7 @@
               <li>¡Listo! Enviá tu propuesta y esperá los próximos pasos.</li>
             </ul>
           </div>
-          <div class="post-btn">
+          <div class="post-btn" id="postularBtn">
             <a href="#"><button>Postulá Ahora</button></a>
           </div>
         </div>
@@ -290,7 +290,7 @@
               <li>Elegí tu favorito y dale tu voto.</li>
             </ul>
           </div>
-          <div class="vote-btn">
+          <div class="vote-btn" id="voteBtn">
             <a href="#"><button>Votá Ahora</button></a>
           </div>
         </div>
@@ -430,6 +430,22 @@
           
         </div>
       </section>
+       <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeModal">&times;</span>
+      <h2>Postulaciones Cerradas</h2>
+      <p>Por el momento no se encuentran abiertas las postulaciones.</p>
+    </div>
+  </div>
+  <!-- Modal para el botón "Votá Ahora" -->
+<div id="voteModal" class="modal">
+  <div class="modal-content">
+    <span class="close" id="closeVoteModal">&times;</span>
+    <h2>Votación No Disponible</h2>
+    <p>El listado de proyectos no se encuentra habilitado para la votación.</p>
+  </div>
+</div>
       <footer>
         <div class="footer-icon footer-container">
           <svg
@@ -976,6 +992,6 @@
       </footer>
     </main>
 
-
+<script src="assets/js/modal.js"></script>
   </body>
 </html>
