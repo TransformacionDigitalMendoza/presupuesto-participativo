@@ -653,3 +653,12 @@ footer {
   background-color: #062735;
   color: white;
 }
+#btn-back-to-top {
+  position: fixed;
+  bottom: 120px;
+  right: 40px;
+  display: none;
+  background-color: #062735;
+  border-color: #062735;
+  border-radius: 50%;
+}
